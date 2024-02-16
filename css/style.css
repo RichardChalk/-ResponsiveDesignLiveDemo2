@@ -1,0 +1,23 @@
+/* Dessa inställningar gäller för mobile */
+.container {
+  width: fit-content; /* Anpassar bredden till innehållets storlek */
+  margin: 0 auto; /* Centrerar behållaren horisontellt */
+}
+
+.box {
+  width: 100px; /* Bredd på varje låda */
+  height: 100px; /* Höjd på varje låda */
+  color: white; /* Färg på varje låda (text) */
+  margin: 5px;
+  float: left; /* Gör att lådorna ligger bredvid varandra */
+}
+
+/* Tablet & Desktop */
+@media (max-width: 768px) {
+  .box {
+    float: none; /* Tar bort float, så lådorna staplas vertikalt */
+    display: block; /* Säkerställer att varje låda tar upp hela radens bredd */
+    margin-left: auto; /* Centrerar lådorna horisontellt (valfritt) */
+    margin-right: auto; /* Centrerar lådorna horisontellt (valfritt) */
+  }
+}

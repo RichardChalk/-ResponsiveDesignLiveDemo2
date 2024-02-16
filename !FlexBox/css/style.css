@@ -1,0 +1,25 @@
+/* Dessa inställningar gäller för mobile */
+.container {
+  width: fit-content; /* Anpassar bredden till innehållets storlek */
+  margin: 0 auto; /* Centrerar behållaren horisontellt */
+
+  display: flex;
+  flex-direction: row; /* Horisontell arrangemang som standard */
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.box {
+  width: 100px; /* Bredd på varje låda */
+  height: 100px; /* Höjd på varje låda */
+  color: white; /* Färg på varje låda (text) */
+  margin: 5px;
+  float: left; /* Gör att lådorna ligger bredvid varandra */
+}
+
+/* Tablet & Desktop */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Vertikalt arrangemang på små skärmar */
+  }
+}
