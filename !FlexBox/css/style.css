@@ -1,4 +1,4 @@
-/* Dessa inställningar gäller för mobile */
+/* Standard inställningar */
 .container {
   width: fit-content; /* Anpassar bredden till innehållets storlek */
   margin: 0 auto; /* Centrerar behållaren horisontellt */
@@ -17,7 +17,7 @@
   float: left; /* Gör att lådorna ligger bredvid varandra */
 }
 
-/* Tablet & Desktop */
+/* För mindre skärmar under 768px */
 @media (max-width: 768px) {
   .container {
     flex-direction: column; /* Vertikalt arrangemang på små skärmar */
