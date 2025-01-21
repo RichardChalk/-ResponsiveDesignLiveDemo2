@@ -16,8 +16,5 @@
 @media (max-width: 768px) {
   .box {
     float: none; /* Tar bort float, så lådorna staplas vertikalt */
-    display: block; /* Säkerställer att varje låda tar upp hela radens bredd */
-    margin-left: auto; /* Centrerar lådorna horisontellt (valfritt) */
-    margin-right: auto; /* Centrerar lådorna horisontellt (valfritt) */
   }
 }
