@@ -14,7 +14,6 @@
   height: 100px; /* Höjd på varje låda */
   color: white; /* Färg på varje låda (text) */
   margin: 5px;
-  float: left; /* Gör att lådorna ligger bredvid varandra */
 }
 
 /* För mindre skärmar under 768px */
